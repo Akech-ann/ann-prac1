@@ -7,10 +7,17 @@
 }
 .ann2{
    gap: 2em;
+   font-size: 20px;
+   margin-top: 1%;
 }
 .ann4{
+    position: absolute;
+    right: 1em;
+    word-spacing: 40px;
+    margin-top: 1%;
+    font-size: 20px;
     
-    gap: 3em;
+    
 }
 
 *{
@@ -45,6 +52,7 @@ margin-top: 5%;
     padding: 8px;
     border-radius: 5px;
    background-color: #ff6b6b;
+   margin-left: 10%;
     
 }
 .fix{
@@ -77,6 +85,7 @@ margin-top: 5%;
 }
 .div1{
     display: flex;
+    
 }
 .div2{
     display: flex;
@@ -127,6 +136,7 @@ margin-top: 5%;
 }
 .background{
   background-color: lightgrey;
+  font-family: sans-serif;
 }
 .see{
     padding: 8px;
@@ -141,6 +151,9 @@ margin-top: 5%;
     display: flex;
 }
 .ann1{
+    display: flex;
+}
+.ann8{
     display: flex;
 }
 .ann2{
@@ -164,7 +177,7 @@ margin-top: 5%;
 }
 .f{
     background-color: white; 
-    margin-left: 2%;  
+    margin-left: 1%;  
 }
 .g{
     background-color: white; 
@@ -177,17 +190,17 @@ margin-top: 5%;
 }
 .i{
     background-color: white; 
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 1%;      
 }
 .j{
     background-color: white; 
-    margin-left: 2%;   
+    margin-left: 1%;   
     margin-top: 1%;
 }
 .k{
    background-color: white; 
-    margin-left: 2%;  
+    margin-left: 0.5%;  
     margin-top: 1%; 
 }
 .arrive{
@@ -307,6 +320,13 @@ margin-top: 5%;
 .navnav{
     width: 50%;
 }
+.bag{
+    float: right;
+}
+.similar{
+    text-align: center;
+    font-size: 40px;
+}
 
 .home ul{
     display: flex;
@@ -351,6 +371,10 @@ color: white;
 .colory{
     background-image: url(/annimagesss/bg\ \(2\).png);
 }
+.hom{
+    color: #ff6b6b;    
+}
+
 .puma1{
     background-color: white;
     height: 180px;
@@ -358,3 +382,39 @@ color: white;
     border-radius: 20px;
     
 }
+.s{
+    background-color: #ff6b6b;
+}
+.home{
+    color: white;
+}
+.ome{
+    color: #ff6b6b; 
+}
+.off{
+    color: #ff6b6b;
+}
+.background{
+    background-image: url(/annimagesss/bg\ \(2\).png);
+    background-repeat: no-repeat;
+}
+/* @media (max-width: 360px){
+    .ann2{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: -1;
+        font-size: 8px;
+        margin-bottom: 1em;
+    }
+    .akechi{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 8px;
+        word-spacing: 20px;
+    
+    }
+    .ann4{
+        word-spacing: 20px;
+        font-size: 8px;
+    }
+} */
