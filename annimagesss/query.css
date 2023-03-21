@@ -1,9 +1,12 @@
 @media only screen and (max-width:700px){
-    .first7{
+    /* .first7{
+        padding: 1px;
         display :block;
         grid-template-columns: repeat(1,1fr);
-    }
+    } */
     .ann2{
+        gap: 1em;
+        font-size: 10px;
         display :block;
         grid-template-columns: repeat(1,1fr);
         margin-right: 80%;
@@ -39,5 +42,10 @@
     .secondshoe{
         display :grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    .maria{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+        gap: 1em;
     }
 }
