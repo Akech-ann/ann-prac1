@@ -1,5 +1,7 @@
 
-
+ body{
+    background-color: black;
+}
 .akechi{
     display: flex;
     
@@ -38,7 +40,7 @@
 }
 
 .pic{
-float: right;
+
 margin-top: 5%;
 }
 .icon1{
@@ -285,10 +287,10 @@ margin-top: 5%;
 } */
 
 .logo1{
-    margin-left: 20%;
+    margin-left: 50%;
 }
 .logo2{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .esther{
     background-color: #ff6b6b;
@@ -442,6 +444,10 @@ color: white;
 .clas{
     display: flex;
 }
+.newnew{
+    background: linear-gradient(red,orange);
+    color: white;
+}
 .bree{
     width: 60%;
     margin-top: 15%;
@@ -459,6 +465,7 @@ color: white;
 .have{
     margin-left: 35%; 
 }
+
 .name{
   margin-left: 35%; 
   padding: 15px; 
@@ -473,8 +480,24 @@ color: white;
     background-image: url(/annimagesss/bg\ \(2\).png);
     background-repeat: no-repeat;
 }
+body{
+    background-color:black;
+}
 
-
+/* @media screen and(max-width:800px){
+    body{
+        background-color: black;
+    }
+    .image{
+        width: 40%;
+        height: 300px;
+    }
+    .esther{
+        background-color:black;
+        color: white;
+        margin: 3%;
+    }
+} */
 
 
 
